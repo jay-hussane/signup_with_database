@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>REGISTER HERE</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <h1>Sign Up</h1>
+        <form action="insert.php" method="post">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="first-name" placeholder="Enter Your First Name" required/>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="last-name" placeholder="Enter Your Last Name"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter a Valid Email Address"/>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="pwd" id="password" placeholder="Create a Strong Password"/>
+          </div>
+          <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="pwd2" id="password" placeholder="Confirm Your Password"/>
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <p class="bottom-text">
+            By clicking the Sign Up button, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
